@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1C384AF4A78A455EE55B66 /* Pods_Roket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3D7598AAA1621E461C13BB0 /* Pods_Roket.framework */; };
+		DD47F1901E7BF4FB0005FB83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47F18F1E7BF4FB0005FB83 /* LoginViewController.swift */; };
+		DD47F1921E7BF51D0005FB83 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47F1911E7BF51D0005FB83 /* RegisterViewController.swift */; };
+		DD47F1951E7BFE9D0005FB83 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD47F1941E7BFE9D0005FB83 /* GoogleService-Info.plist */; };
+		DD47F1971E7C02260005FB83 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD47F1961E7C02260005FB83 /* MainViewController.swift */; };
+		DD58C0D91E7BDD2C003BC8BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58C0D81E7BDD2C003BC8BE /* AppDelegate.swift */; };
+		DD58C0DB1E7BDD2C003BC8BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58C0DA1E7BDD2C003BC8BE /* ViewController.swift */; };
+		DD58C0DE1E7BDD2C003BC8BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD58C0DC1E7BDD2C003BC8BE /* Main.storyboard */; };
+		DD58C0E01E7BDD2C003BC8BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD58C0DF1E7BDD2C003BC8BE /* Assets.xcassets */; };
+		DD58C0E31E7BDD2C003BC8BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD58C0E11E7BDD2C003BC8BE /* LaunchScreen.storyboard */; };
+		DD96013B1E7E34C300790F49 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96013A1E7E34C300790F49 /* ProfileViewController.swift */; };
+		DD96013F1E7E602300790F49 /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96013E1E7E602300790F49 /* ChallengeViewController.swift */; };
+		DD9601411E7E6D7200790F49 /* FriendsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9601401E7E6D7200790F49 /* FriendsListViewController.swift */; };
+		DD9601431E7E7A8600790F49 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9601421E7E7A8600790F49 /* User.swift */; };
+		DDEBDE971E7D5763003A2995 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEBDE961E7D5763003A2995 /* HealthKit.framework */; };
+		DDEBDE9B1E7DB292003A2995 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEBDE9A1E7DB292003A2995 /* ChartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D4ECC9051BDA03BF0A510C4 /* Pods-Roket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roket.release.xcconfig"; path = "Pods/Target Support Files/Pods-Roket/Pods-Roket.release.xcconfig"; sourceTree = "<group>"; };
+		8A60609553B549E87A7EE80F /* Pods-Roket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Roket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Roket/Pods-Roket.debug.xcconfig"; sourceTree = "<group>"; };
+		C3D7598AAA1621E461C13BB0 /* Pods_Roket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Roket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD47F18F1E7BF4FB0005FB83 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DD47F1911E7BF51D0005FB83 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DD47F1941E7BFE9D0005FB83 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DD47F1961E7C02260005FB83 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		DD58C0D51E7BDD2C003BC8BE /* Roket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD58C0D81E7BDD2C003BC8BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD58C0DA1E7BDD2C003BC8BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD58C0DD1E7BDD2C003BC8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD58C0DF1E7BDD2C003BC8BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD58C0E21E7BDD2C003BC8BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD58C0E41E7BDD2C003BC8BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD96013A1E7E34C300790F49 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DD96013E1E7E602300790F49 /* ChallengeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		DD9601401E7E6D7200790F49 /* FriendsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsListViewController.swift; sourceTree = "<group>"; };
+		DD9601421E7E7A8600790F49 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DDEBDE8D1E7C1877003A2995 /* Roket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Roket.entitlements; sourceTree = "<group>"; };
+		DDEBDE961E7D5763003A2995 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		DDEBDE9A1E7DB292003A2995 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD58C0D21E7BDD2C003BC8BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1C384AF4A78A455EE55B66 /* Pods_Roket.framework in Frameworks */,
+				DDEBDE971E7D5763003A2995 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252EC00D115E0EF5E8DE4001 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A60609553B549E87A7EE80F /* Pods-Roket.debug.xcconfig */,
+				1D4ECC9051BDA03BF0A510C4 /* Pods-Roket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57316096B3BDA0E7E45C6BE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDEBDE961E7D5763003A2995 /* HealthKit.framework */,
+				C3D7598AAA1621E461C13BB0 /* Pods_Roket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD47F1931E7BF5600005FB83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD58C0DF1E7BDD2C003BC8BE /* Assets.xcassets */,
+				DD9601421E7E7A8600790F49 /* User.swift */,
+				DD47F1941E7BFE9D0005FB83 /* GoogleService-Info.plist */,
+				DD58C0E41E7BDD2C003BC8BE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD58C0CC1E7BDD2C003BC8BE = {
+			isa = PBXGroup;
+			children = (
+				DD58C0D71E7BDD2C003BC8BE /* Roket */,
+				DD58C0D61E7BDD2C003BC8BE /* Products */,
+				252EC00D115E0EF5E8DE4001 /* Pods */,
+				57316096B3BDA0E7E45C6BE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD58C0D61E7BDD2C003BC8BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD58C0D51E7BDD2C003BC8BE /* Roket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD58C0D71E7BDD2C003BC8BE /* Roket */ = {
+			isa = PBXGroup;
+			children = (
+				DDEBDE8D1E7C1877003A2995 /* Roket.entitlements */,
+				DD58C0D81E7BDD2C003BC8BE /* AppDelegate.swift */,
+				DD58C0DA1E7BDD2C003BC8BE /* ViewController.swift */,
+				DD47F1961E7C02260005FB83 /* MainViewController.swift */,
+				DDEBDE9A1E7DB292003A2995 /* ChartViewController.swift */,
+				DD96013A1E7E34C300790F49 /* ProfileViewController.swift */,
+				DD96013E1E7E602300790F49 /* ChallengeViewController.swift */,
+				DD9601401E7E6D7200790F49 /* FriendsListViewController.swift */,
+				DD47F18F1E7BF4FB0005FB83 /* LoginViewController.swift */,
+				DD47F1911E7BF51D0005FB83 /* RegisterViewController.swift */,
+				DD58C0E11E7BDD2C003BC8BE /* LaunchScreen.storyboard */,
+				DD58C0DC1E7BDD2C003BC8BE /* Main.storyboard */,
+				DD47F1931E7BF5600005FB83 /* Supporting Files */,
+			);
+			path = Roket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD58C0D41E7BDD2C003BC8BE /* Roket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD58C0E71E7BDD2C003BC8BE /* Build configuration list for PBXNativeTarget "Roket" */;
+			buildPhases = (
+				DEC530B0A68D485D817A4116 /* [CP] Check Pods Manifest.lock */,
+				DD58C0D11E7BDD2C003BC8BE /* Sources */,
+				DD58C0D21E7BDD2C003BC8BE /* Frameworks */,
+				DD58C0D31E7BDD2C003BC8BE /* Resources */,
+				44197D43029D012FC1B28B31 /* [CP] Embed Pods Frameworks */,
+				80C23747CAB8A4F65B062919 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roket;
+			productName = Roket;
+			productReference = DD58C0D51E7BDD2C003BC8BE /* Roket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD58C0CD1E7BDD2C003BC8BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Rock;
+				TargetAttributes = {
+					DD58C0D41E7BDD2C003BC8BE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PWEBYXP3DP;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = DD58C0D01E7BDD2C003BC8BE /* Build configuration list for PBXProject "Roket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD58C0CC1E7BDD2C003BC8BE;
+			productRefGroup = DD58C0D61E7BDD2C003BC8BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD58C0D41E7BDD2C003BC8BE /* Roket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD58C0D31E7BDD2C003BC8BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD58C0E31E7BDD2C003BC8BE /* LaunchScreen.storyboard in Resources */,
+				DD47F1951E7BFE9D0005FB83 /* GoogleService-Info.plist in Resources */,
+				DD58C0E01E7BDD2C003BC8BE /* Assets.xcassets in Resources */,
+				DD58C0DE1E7BDD2C003BC8BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44197D43029D012FC1B28B31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roket/Pods-Roket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80C23747CAB8A4F65B062919 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Roket/Pods-Roket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC530B0A68D485D817A4116 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD58C0D11E7BDD2C003BC8BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD47F1901E7BF4FB0005FB83 /* LoginViewController.swift in Sources */,
+				DD96013F1E7E602300790F49 /* ChallengeViewController.swift in Sources */,
+				DD9601411E7E6D7200790F49 /* FriendsListViewController.swift in Sources */,
+				DD9601431E7E7A8600790F49 /* User.swift in Sources */,
+				DDEBDE9B1E7DB292003A2995 /* ChartViewController.swift in Sources */,
+				DD58C0DB1E7BDD2C003BC8BE /* ViewController.swift in Sources */,
+				DD58C0D91E7BDD2C003BC8BE /* AppDelegate.swift in Sources */,
+				DD96013B1E7E34C300790F49 /* ProfileViewController.swift in Sources */,
+				DD47F1921E7BF51D0005FB83 /* RegisterViewController.swift in Sources */,
+				DD47F1971E7C02260005FB83 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD58C0DC1E7BDD2C003BC8BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD58C0DD1E7BDD2C003BC8BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD58C0E11E7BDD2C003BC8BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD58C0E21E7BDD2C003BC8BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD58C0E51E7BDD2C003BC8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD58C0E61E7BDD2C003BC8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD58C0E81E7BDD2C003BC8BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A60609553B549E87A7EE80F /* Pods-Roket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Roket/Roket.entitlements;
+				DEVELOPMENT_TEAM = PWEBYXP3DP;
+				INFOPLIST_FILE = Roket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.Roket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD58C0E91E7BDD2C003BC8BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D4ECC9051BDA03BF0A510C4 /* Pods-Roket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Roket/Roket.entitlements;
+				DEVELOPMENT_TEAM = PWEBYXP3DP;
+				INFOPLIST_FILE = Roket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lee.Roket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD58C0D01E7BDD2C003BC8BE /* Build configuration list for PBXProject "Roket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD58C0E51E7BDD2C003BC8BE /* Debug */,
+				DD58C0E61E7BDD2C003BC8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD58C0E71E7BDD2C003BC8BE /* Build configuration list for PBXNativeTarget "Roket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD58C0E81E7BDD2C003BC8BE /* Debug */,
+				DD58C0E91E7BDD2C003BC8BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD58C0CD1E7BDD2C003BC8BE /* Project object */;
+}
